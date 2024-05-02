@@ -1,0 +1,14 @@
+table{
+    overflow: hidden;
+    border-radius: 5px;
+}
+table th, td{
+    padding: 10px;
+}
+table thead, th{
+    background-color: black;
+    color: white;
+}
+table tr:nth-child(even){
+    background-color: rgb(246, 246, 246);
+}
